@@ -1,23 +1,23 @@
-main{
+main {
     max-width: 840px;
 }
 
 nav {
-  background-color: steelblue;
-  padding: 1em;
-  width:auto;
+    background-color: steelblue;
+    padding: 1em;
+    width: auto;
 }
 
 nav a {
     color: white;
     padding: 10px;
     display: block;
+    text-decoration: none;
 }
 
 h1 {
-    color: steelblue
+    color: steelblue;
 }
-
 
 main img {
     width: 150px;
@@ -31,11 +31,10 @@ p {
     padding: 0;
 }
 
-
 aside {
     width: 50em;
     margin: 1em;
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
     background-color: #eee;
     color: #333;
@@ -46,7 +45,6 @@ aside img {
     width: 500px;
     height: auto;
 }
-
 
 footer {
     margin-top: 1em;
