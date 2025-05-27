@@ -4,59 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Learn more about our rafting company's mission, history, and adventures.">
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Lucas Link">
   <title>About Us - Rapid River Adventures</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-  <header>
-    <img src="images/logo.png" alt="Rafting Company Logo">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
+  <header class="main-header">
+    <div class="header-container">
+      <img src="images/logo.png" alt="Rafting Company Logo" class="logo">
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <div class="hero">
-      <img src="images/hero.jpg" alt="Rafting Adventure">
-      <h1>Rapid River Adventures</h1>
-      <article>
-        <img src="images/happy-client.jpg" alt="Happy Client">
-        <p>Our mission is to provide the most thrilling, safe, and unforgettable whitewater rafting experiences. Join us and connect with nature, excitement, and unforgettable memories.</p>
-      </article>
-    </div>
-
-    <section>
-      <h2>History</h2>
-      <p>Founded in 1998, Rapid River Adventures has guided thousands of rafters through breathtaking landscapes and wild rapids. Our experienced guides and top-notch safety practices make every trip unforgettable.</p>
+    <section class="hero">
+      <img src="images/hero.jpg" alt="Rafting Adventure" class="hero-image">
+      <div class="hero-content">
+        <h1>Rapid Foz de Iguaçu</h1>
+        <article>
+          <img src="images/happy-client.jpg" alt="Happy Client" class="client-img">
+          <p>
+            That was the most thrilling experience of my life! Rafting through the powerful waters of Foz do Iguaçu was both exhilarating and breathtaking. I felt completely safe with the expert guides, and the scenery was absolutely stunning.
+            It's an adventure I'll never forget - pure adrenaline and pure joy!
+          </p>
+        </article>
+      </div>
     </section>
 
-    <section>
+    <!-- Galeria organizada -->
+    <section class="adventure-section">
       <h2>Adventure Awaits You!</h2>
-      <img src="images/adventure1.jpg" alt="Adventure 1">
-      <img src="images/adventure2.jpg" alt="Adventure 2">
-      <img src="images/adventure3.jpg" alt="Adventure 3">
-      <img src="images/adventure4.jpg" alt="Adventure 4">
-      <img src="images/adventure5.jpg" alt="Adventure 5">
+      <div class="adventure-gallery">
+        <img src="images/adventure1.jpg" alt="Adventure 1">
+        <img src="images/adventure2.jpg" alt="Adventure 2">
+        <img src="images/adventure3.jpg" alt="Adventure 3">
+        <img src="images/adventure4.jpg" alt="Adventure 4">
+        <img src="images/adventure5.jpg" alt="Adventure 5">
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Rapid River Adventures | Your Name</p>
+    <p>&copy; 2025 Rapid River Adventures | Lucas Link</p>
     <nav class="socialmedia">
-      <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook"></a>
-      <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a>
-      <a href="https://instagram.com"><img src="images/instagram-icon.png" alt="Instagram"></a>
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
     </nav>
   </footer>
 </body>
