@@ -20,7 +20,7 @@ body {
   background-color: #fdfdfd;
 }
 
-/* Estrutura principal */
+
 header, main, footer {
   max-width: 1200px;
   margin-left: auto;
@@ -28,20 +28,18 @@ header, main, footer {
   padding: 0 16px;
 }
 
-/* Títulos */
+
 h1, h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   margin-bottom: 8px;
 }
 
-/* Navegação */
 nav, p, section, article {
   margin: 16px 0;
   padding: 8px;
 }
 
-/* Cabeçalho */
 .main-header {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
@@ -78,7 +76,6 @@ nav, p, section, article {
   color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
   position: relative;
   margin-bottom: 40px;
@@ -122,7 +119,7 @@ nav, p, section, article {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
-/* História (seção 1) */
+
 section:nth-of-type(1) {
   background-color: var(--accent1-color);
   padding: 20px;
@@ -130,7 +127,6 @@ section:nth-of-type(1) {
   margin-bottom: 32px;
 }
 
-/* Galeria */
 .adventure-section {
   margin: 40px 0;
   text-align: center;
@@ -163,7 +159,7 @@ section:nth-of-type(1) {
   transform: scale(1.03);
 }
 
-/* Rodapé */
+
 footer {
   background-color: #1c1c1c;
   color: white;
@@ -189,7 +185,7 @@ footer .socialmedia a:hover {
   color: #00aced;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .hero-content {
     position: static;
@@ -227,4 +223,11 @@ footer .socialmedia a:hover {
   .adventure-gallery {
     grid-template-columns: 1fr;
   }
+}
+
+.history {
+  background-color: var(--accent1-color);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 32px;
 }
