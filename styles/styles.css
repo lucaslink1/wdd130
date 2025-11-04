@@ -23,6 +23,7 @@ main img {
 aside {
     width: 500px;
     height: 350px;
+    margin: 20px;
     border: grey;
     padding: 10px;
     background-color: grey;
