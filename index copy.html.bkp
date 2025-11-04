@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Lucas Link Ortega</title>
+    <meta name="description" content="Lucas Ortega's BYU-Idaho WDD 130 course home page.">
+    <meta name="author" content="Lucas Link Ortega">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">Rafting Website/</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Lucas Link Ortega | WDD 130</h1>
+        <img src="images/profile.jpeg" alt="Hello, My name is Lucas Ortega">
+        <p>Hello, My name is Lucas and i'm from Curitiba, Brazil and i like to play videogames.</p>
+    </main>
+    <aside>
+        <h2>Salt Lake Temple</h2>
+        <img src="images/salt-lake-temple.jpg" alt="Salt Lake's Temple">
+    </aside>
+    <footer>
+        <p>copyright (©)</p>
+    </footer>
+
+</body>
+
+</html>
