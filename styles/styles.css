@@ -16,7 +16,13 @@ header {
     background-color: steelblue;
     padding: 10px;
 }
-nav {
+
+nav{
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
     color: white;
     padding: 10px;
     display: block;
