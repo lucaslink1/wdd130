@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #0f2a36;
-  --secondary-color: #1b3b47;
-  --accent1-color: #06594f;  
-  --accent2-color: #e7b75f;
+    --primary-color: #0f2a36;
+    --secondary-color: #1b3b47;
+    --accent1-color: #06594f;  
+    --accent2-color: #e7b75f;
 
-  --heading-font: "Georgia", serif;
-  --body-font: Arial, Helvetica, sans-serif;
+    --heading-font: "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 
@@ -27,20 +27,24 @@ header, main, footer{
 }
 
 header {
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+footer {
+    background-color: var(--secondary-color);
 }
 
 header img {
-  height: 60px;
+    height: 60px;
 }
 
 header nav a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 h1, h2 {
@@ -84,13 +88,13 @@ h1 {
 }
 
 .hero article {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  left: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 16px;
-  border-radius: 8px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16px;
+    border-radius: 8px;
 }
 
 .hero article img {
