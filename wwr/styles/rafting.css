@@ -52,23 +52,26 @@ h1, h2 {
     font-family: var(--heading-font);
 }
 
+/* --- FAIXA EM CIMA DA IMAGEM (TÍTULO) --- */
 h1 {
     position: absolute;
     top: 20px;
+    left: 0;
     width: 100%;
-    padding: 16px;
+    padding: 16px 0;
     text-align: center;
-    color: white;
-    opacity: 1;
-    background-color: black;
+    opacity: 0.8;                  /* cuidado: ponto, não vírgula */
+    background-color: var(--accent1-color);
+    color: #fff;
 }
 
+/* Títulos das seções */
 h2 {
     padding: 5px;
-    background-color: var(--secondary-color);
-    color: black;
+    background-color: var(--primary-color);
+    color: #fff;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 0;
 }
 
 nav, p, section, article {
@@ -83,61 +86,45 @@ nav, p, section, article {
 
 .hero {
     position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    background: #c9b28e;
 }
 
-.hero-image {
-    position: relative; /* IMPORTANTE */
-}
-
-.hero-image img {
-    width: 600px;
-    border-radius: 8px;
+.hero img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
-/* Card sobreposto */
-.hero-card {
+
+.hero article {
     position: absolute;
-    right: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 350px;
-    background: #6e7a69;
-    padding: 25px 35px;
-    border-radius: 10px;
-    color: white;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-}
-
-.hero-card h2 {
-    background: #d8ad79;
-    color: black;
-    padding: 10px;
-    border-radius: 6px;
-    margin-top: 0;
-    text-align: center;
-}
-
-.hero-card button {
-    margin-top: 20px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 6px;
-    background: #f2e6d0;
-    cursor: pointer;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 16px;
+    padding: 16px;
+    background-color: rgba(215, 181, 137, 0.9); 
+    color: var(--accent1-color);
+    overflow: hidden; 
 }
 
 
+.hero article p {
+    margin: 0;
+}
 
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
+}
 
 footer {
     border-top: 2px solid var(--primary-color);
     color: var(--accent1-color);
     text-align: center;
     padding: 20px 0;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
