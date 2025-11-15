@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #0f2a36;
-    --secondary-color: #1b3b47;
-    --accent1-color: #06594f;   
-    --accent2-color: #e7b75f;
+    --primary-color: #6e7a64;
+    --secondary-color: #d7b589;
+    --accent1-color: #2a2a2a;
+    --accent2-color: #f5efe7;
+
     --heading-font: "Georgia", "Times New Roman", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
-
 
 * {
     margin: 0;
@@ -17,47 +17,62 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: #ffffff;
+    background-color: var(--accent2-color);
 }
 
-header, main, footer{
+header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px 16px;
 }
 
-footer {
-    background-color: var(--secondary-color);
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
 }
 
 header img {
     height: 60px;
 }
 
-header nav a:hover {
-    color: #ffffff;
-}
-
 h1, h2 {
     font-family: var(--heading-font);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    color: var(--secondary-color);
+    opacity: 1;
+}
+
+h2 {
+    padding: 5px;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
+    text-align: center;
+    border-radius: 4px;
 }
 
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .socialmedia img {
@@ -74,29 +89,20 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
-}
-
 .hero article {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 16px;
-    border-radius: 8px;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.hero article img {
+    float: none;
+    width: 45%;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
+footer {
+    border-top: 2px solid var(--primary-color);
+    color: var(--accent1-color);
+    text-align: center;
+    padding: 20px 0;
 }
