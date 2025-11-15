@@ -83,23 +83,57 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: #c9b28e;
 }
 
-.hero img {
+.hero-image {
+    position: relative; /* IMPORTANTE */
+}
+
+.hero-image img {
+    width: 600px;
+    border-radius: 8px;
     display: block;
-    width: 100%;
-    height: auto;
 }
-.hero article {
-    background-color: var(--secondary-color);
-    display: flex;
-    align-items: center;
-    gap: 16px;
+
+/* Card sobreposto */
+.hero-card {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 350px;
+    background: #6e7a69;
+    padding: 25px 35px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
-.hero article img {
-    float: none;
-    width: 45%;
+
+.hero-card h2 {
+    background: #d8ad79;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 0;
+    text-align: center;
 }
+
+.hero-card button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #f2e6d0;
+    cursor: pointer;
+}
+
+
+
 
 footer {
     border-top: 2px solid var(--primary-color);
