@@ -1,12 +1,13 @@
 :root {
-  --primary-color: #0f2a36;      
-  --secondary-color: #1b3b47;    
-  --accent1-color: #086e63;    
-  --accent2-color: #e7b75f;      
+  --primary-color: #0f2a36;
+  --secondary-color: #1b3b47;
+  --accent1-color: #06594f;  
+  --accent2-color: #e7b75f;
 
-  --heading-font: "Georgia", "Times New Roman", serif;
+  --heading-font: "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
+
 
 * {
     margin: 0;
